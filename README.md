@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# ChartReasoner
-=======
+
 # ChartReasoner
 
 ChartReasoner is a code-driven long-chain reasoning dataset for chart question answering. The release contains annotations, questions, answers, and generated reasoning traces. It does not redistribute chart images from the original open-source datasets.
@@ -97,4 +95,3 @@ git push -u origin main
 ## Citation
 
 If you use this dataset, please cite ChartReasoner and the original source datasets used by the referenced images.
->>>>>>> c75dc37 (first commit)
