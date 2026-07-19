@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Original chart images are not redistributed in this repository.
+data/*
+!data/.gitkeep
+
+# Optional large single-file export.
+annotations/ChartReasoner.json

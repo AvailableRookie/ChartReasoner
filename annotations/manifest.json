@@ -1,0 +1,37 @@
+{
+  "name": "ChartReasoner",
+  "num_records": 146881,
+  "data_sources": {
+    "chartbench": 39473,
+    "chartqa": 16134,
+    "evochart": 64626,
+    "plotqa": 26648
+  },
+  "annotation_files": [
+    "annotations/ChartReasoner_part_000.jsonl",
+    "annotations/ChartReasoner_part_001.jsonl",
+    "annotations/ChartReasoner_part_002.jsonl",
+    "annotations/ChartReasoner_part_003.jsonl",
+    "annotations/ChartReasoner_part_004.jsonl",
+    "annotations/ChartReasoner_part_005.jsonl"
+  ],
+  "image_policy": "Images are not redistributed. image_path is a relative placeholder under ./data/; source_image_path identifies the corresponding file inside the original open-source dataset.",
+  "example_image_paths": {
+    "evochart": {
+      "source_image_path": "PNG/43427.png",
+      "release_image_path": "./data/evochart/PNG/43427_evochart.png"
+    },
+    "chartqa": {
+      "source_image_path": "train/png/two_col_82844.png",
+      "release_image_path": "./data/chartqa/train/png/two_col_82844_chartqa.png"
+    },
+    "plotqa": {
+      "source_image_path": "png_train/png/51463.png",
+      "release_image_path": "./data/plotqa/png_train/png/51463_plotqa.png"
+    },
+    "chartbench": {
+      "source_image_path": "train/area/area/chart_901/image.png",
+      "release_image_path": "./data/chartbench/train/area/area/chart_901/image_chartbench.png"
+    }
+  }
+}
