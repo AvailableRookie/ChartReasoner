@@ -79,18 +79,7 @@ The single JSON file is large and may exceed normal GitHub file-size limits. The
 
 We do not provide or redistribute the original chart images. Please download the images from the corresponding open-source datasets and place them under the paths indicated by `image_path`. The source suffix in each filename, such as `_evochart`, `_chartqa`, `_plotqa`, or `_chartbench`, is used to make the source explicit and avoid name collisions. Users must follow the licenses and terms of the original datasets.
 
-## Upload
-
-Suggested GitHub commands:
-
-```bash
-git init
-git add README.md scripts annotations .gitignore data/.gitkeep
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AvailableRookie/ChartReasoner.git
-git push -u origin main
-```
+We sincerely thank the creators and maintainers of the original datasets whose chart images were used in this work. ChartReasoner builds upon these publicly available visual resources to construct chart question-answering annotations and long-chain reasoning data. All original images remain the property of their respective dataset providers and are subject to their original licenses and terms of use. We encourage users of ChartReasoner to properly cite the corresponding source datasets and acknowledge their contributions.
 
 ## Citation
 
